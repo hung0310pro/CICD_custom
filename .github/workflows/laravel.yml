@@ -27,3 +27,9 @@ jobs:
 
     - name: Run PHPCS on abc.php
       run: phpcs --standard=PSR12 abc.php
+
+    - name: Pull code
+      run: git pull origin main -f
+
+    - name: Pull code
+      run: git pull origin main --allow-unrelated-histories
