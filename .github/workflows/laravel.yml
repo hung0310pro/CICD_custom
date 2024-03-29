@@ -31,5 +31,5 @@ jobs:
     - name: Pull code
       run: git pull origin main -f
 
-    - name: Pull code
+    - name: Pull code1
       run: git pull origin main --allow-unrelated-histories
